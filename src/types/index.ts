@@ -44,6 +44,17 @@ export interface Project {
   quote?: string
 }
 
+export interface Certification {
+  title: string
+  organization: string
+  issued: string
+  expires?: string
+  credentialId: string
+  skills?: string[]
+  logo: string
+  url?: string
+}
+
 export interface ContactFormData {
   name: string
   email: string

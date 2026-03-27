@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "predeploy": "npm run build && touch dist/.nojekyll",
+    "predeploy": "npm run build -- --base=/portfolio/ && touch dist/.nojekyll",
     "deploy": "gh-pages -d dist -t"
   },
   "dependencies": {

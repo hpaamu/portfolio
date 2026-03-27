@@ -3,7 +3,7 @@ import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import HomePage from '@/pages/HomePage'
 
-const SECTIONS = ['home', 'about', 'skills', 'projects', 'experience', 'contact']
+const SECTIONS = ['home', 'about', 'skills', 'projects', 'experience', 'certifications', 'contact']
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home')

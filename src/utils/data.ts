@@ -1,10 +1,11 @@
-import type { NavLink, Stat, TechCategory, Experience, Project } from '@/types'
+import type { NavLink, Stat, TechCategory, Experience, Project, Certification } from '@/types'
 
 export const NAV_LINKS: NavLink[] = [
   { label: 'Work', href: '#projects' },
   { label: 'Skills', href: '#skills' },
-  { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Certifications', href: '#certifications' },
+  { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -164,4 +165,62 @@ export const SOCIAL_LINKS = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/harika-paamu-530967212/' },
   { label: 'GitHub', href: 'https://github.com/harikapaamu' },
   { label: 'Twitter', href: 'https://twitter.com/harikapaamu' },
+]
+
+export const CERTIFICATIONS: Certification[] = [
+  {
+    title: 'Microsoft Certified: Fabric Data Engineer Associate',
+    organization: 'Microsoft',
+    issued: 'Feb 2026',
+    expires: 'Feb 2027',
+    credentialId: '6ACA1A87E6315310',
+    skills: ['SQL', 'ETL Pipelines'],
+    logo: 'workspace_premium',
+    url: 'https://learn.microsoft.com/en-us/users/HarikaPaamu-5644/credentials/6ACA1A87E6315310?ref=https%3a%2f%2fwww.linkedin.com%2f',
+  },
+  {
+    title: 'Data Scientist Associate',
+    organization: 'DataCamp',
+    issued: 'Feb 2026',
+    expires: 'Feb 2028',
+    credentialId: 'DSA0013996607902',
+    logo: 'workspace_premium',
+    url: 'https://www.datacamp.com/certificate/DSA0013996607902',
+  },
+  {
+    title: 'Data Engineer Associate',
+    organization: 'DataCamp',
+    issued: 'Feb 2026',
+    expires: 'Feb 2028',
+    credentialId: 'DEA0015082638489',
+    logo: 'workspace_premium',
+    url: 'https://www.datacamp.com/certificate/DEA0015082638489',
+  },
+  {
+    title: 'SAP S/4HANA Cloud Public Edition for Absolute Beginners 2026',
+    organization: 'Udemy',
+    issued: 'Jan 2026',
+    credentialId: 'UC-0aea53f3-0cd0-4169-8c41-c4ffb7513fb9',
+    skills: ['SAP S/4HANA', 'SAP Cloud Platform'],
+    logo: 'workspace_premium',
+    url: 'https://www.udemy.com/certificate/UC-0aea53f3-0cd0-4169-8c41-c4ffb7513fb9/',
+  },
+  {
+    title: 'SAP Certified Development Associate - SAP Fiori Application Developer',
+    organization: 'Udemy',
+    issued: 'Jan 2026',
+    credentialId: 'UC-e1a01d23-d870-451a-b5a7-999a502d9879',
+    skills: ['SAP Fiori', 'OData'],
+    logo: 'workspace_premium',
+    url: 'https://www.udemy.com/certificate/UC-e1a01d23-d870-451a-b5a7-999a502d9879/',
+  },
+  {
+    title: 'Microsoft Certified: Power BI Data Analyst Associate',
+    organization: 'Microsoft',
+    issued: 'Jan 2026',
+    expires: 'Jan 2027',
+    credentialId: '9A1EA559BF7BF5CD',
+    logo: 'workspace_premium',
+    url: 'https://learn.microsoft.com/api/credentials/share/en-us/HarikaPaamu-5644/9A1EA559BF7BF5CD?sharingId',
+  },
 ]
