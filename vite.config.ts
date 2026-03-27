@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/portfolio-client-harika-paamu/',
+  base: '/portfolio/',
   plugins: [react()],
   resolve: {
     alias: {
