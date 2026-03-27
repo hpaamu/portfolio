@@ -40,7 +40,7 @@ export default function HeroSection() {
           Data Scientist{' '}
           <br />
           <span className="text-secondary">
-            The Neural Architect
+            Machine Learning Engineer
           </span>
         </motion.h1>
 

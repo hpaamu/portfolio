@@ -85,7 +85,7 @@ export const TECH_STACK: TechCategory[] = [
 export const EXPERIENCES: Experience[] = [
   {
     id: 'jpmorgan',
-    period: '2023 — Present',
+    period: '2024 — Present',
     company: 'JPMorgan Chase & Co.',
     role: 'Data Scientist',
     achievements: [
